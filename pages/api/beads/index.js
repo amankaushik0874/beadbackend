@@ -1,4 +1,4 @@
-import { dummyBeads } from "./[beadId]";
+import { dummyBeads } from "./data";
 
 export default function handler(req, res) {
   if (req.method === "GET") {

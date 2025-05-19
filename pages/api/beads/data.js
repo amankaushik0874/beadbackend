@@ -6,7 +6,6 @@ export const dummyBeads = {
     dimensions: "10x5x5",
     materials: "Gold",
     origin: "India",
-    valid: true,
   },
   BEAD5678: {
     type: "Bracelet",
@@ -14,7 +13,6 @@ export const dummyBeads = {
     dimensions: "7x3x3",
     materials: "Silver",
     origin: "Thailand",
-    valid: true,
   },
   BEAD9012: {
     type: "Ring",
@@ -22,6 +20,5 @@ export const dummyBeads = {
     dimensions: "2x2x2",
     materials: "Platinum",
     origin: "Dubai",
-    valid: true,
   },
 };

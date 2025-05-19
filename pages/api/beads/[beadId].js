@@ -8,30 +8,10 @@ export default function handler(req, res) {
     if (!bead) {
       return res.status(404).json({ error: `Bead ID ${beadId} not found` });
     }
-    return res.status(200).json({
-      beadId,
-      metadata: bead,
-      timestamp: new Date().toISOString(),
-    });
+    // Return the bead data directly, as expected by the Chainlink Function
+    return res.status(200).json(bead);
   }
 
-  if (req.method === "POST") {
-    const { metadata } = req.body;
-
-    if (!metadata) {
-      return res.status(400).json({ error: "Missing metadata" });
-    }
-
-    // Simple validation logic
-    const response = {
-      beadId: beadId,
-      timestamp: new Date().toISOString(),
-      valid: dummyBeads[beadId] ? true : false,
-      metadata: dummyBeads[beadId] || metadata,
-    };
-
-    return res.status(200).json(response);
-  }
-
+  // Other methods are not allowed for this simplified example
   return res.status(405).json({ error: "Method not allowed" });
 }

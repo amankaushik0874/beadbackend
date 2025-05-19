@@ -1,4 +1,4 @@
-module.exports = {
+export const dummyBeads = {
   "WIPW6IQB": {
     type: "Necklace",
     weight: 12.5,

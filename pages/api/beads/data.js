@@ -1,19 +1,19 @@
 export const dummyBeads = {
-  "31M7896G": {
+  "442NUGOO": {
     type: "Necklace",
     weight: 12.5,
     dimensions: "10x5x3",
     materials: "Gold",
     origin: "Italy"
   },
-  "1M7896GZ": {
+  "42NUGOO4": {
     type: "Bracelet",
     weight: 8.2,
     dimensions: "8x4x2",
     materials: "Gold",
     origin: "France"
   },
-  "M7896GZ0": {
+  "2NUGOO41": {
     type: "Ring",
     weight: 3.1,
     dimensions: "2x2x1",

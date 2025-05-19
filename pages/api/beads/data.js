@@ -1,24 +1,23 @@
-// Dummy data for demonstration
-export const dummyBeads = {
-  BEAD1234: {
+module.exports = {
+  "WIPW6IQB": {
     type: "Necklace",
-    weight: 25,
-    dimensions: "10x5x5",
+    weight: 12.5,
+    dimensions: "10x5x3",
     materials: "Gold",
-    origin: "India",
+    origin: "Italy"
   },
-  BEAD5678: {
+  "IPW6IQBN": {
     type: "Bracelet",
-    weight: 15,
-    dimensions: "7x3x3",
-    materials: "Silver",
-    origin: "Thailand",
+    weight: 8.2,
+    dimensions: "8x4x2",
+    materials: "Gold",
+    origin: "France"
   },
-  BEAD9012: {
+  "PW6IQBNA": {
     type: "Ring",
-    weight: 8,
-    dimensions: "2x2x2",
-    materials: "Platinum",
-    origin: "Dubai",
-  },
+    weight: 3.1,
+    dimensions: "2x2x1",
+    materials: "Gold",
+    origin: "India"
+  }
 };
